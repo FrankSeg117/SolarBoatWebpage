@@ -7,9 +7,14 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 nav ul li {
-    display: inline;
+    display: inline-flex;
     margin: 0 15px;
 }
 nav ul li a {
@@ -19,6 +24,16 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: #FFD700; /* Highlight on hover */
+}
+.logo-left, .logo-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo-left img, .logo-right img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    margin: 0 5px;
 }
 
 #hero {
