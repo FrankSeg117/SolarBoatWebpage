@@ -136,9 +136,68 @@ html, body {
     text-align: center;
 }
 
-#contact{
-    background-color:#8BC53F; /* Light coral background */ /*Esto es color del background*/
-    color: #000000; /* Darker text color */ /*Esto el color del texto*/
-    padding: 20px;
+footer {
+    background-color: #7FB800; /* Adjust color to match your design */
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centers items vertically */
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-logo img {
+    max-height: 80px; /* Set a maximum height for the logo */
+    width: auto;
+}
+
+.footer-info {
+    display: flex;
+    gap: 40px; /* Space between Contact and Social columns */
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.footer-section h4 {
+    margin: 0 0 5px 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.footer-section p, .footer-section a {
+    color: #ffffff;
+    font-size: 0.9em;
+    text-decoration: none;
+    margin: 0;
+}
+
+.footer-section a:hover {
+    color: #FFD700; /* Optional: Hover color for links */
+}
+
+.footer-bottom {
     text-align: center;
+    font-size: 0.8em;
+    padding-top: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3); /* Optional: border to separate */
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stacks items vertically on smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+    .footer-info {
+        flex-direction: column; /* Stack Contact and Socials in one column */
+        gap: 10px;
+    }
 }
