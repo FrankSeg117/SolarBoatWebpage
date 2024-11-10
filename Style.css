@@ -105,7 +105,9 @@ html, body {
 .hero-text p {
     font-size: 2.4em;
 }
-
+#about {
+    font-size: 1.8em;
+}
 #team {
     background-color: #8BC53F; /* Light coral background */ /*Esto es color del background*/
     color: #000000; /* Darker text color */ /*Esto el color del texto*/
@@ -122,6 +124,8 @@ html, body {
 
 #gallery {
     text-align: center;
+    font-size: 2.4em;
+
     
 }
 #gallery img {
@@ -137,6 +141,7 @@ html, body {
     color: #000000; /* Darker text color */ /*Esto el color del texto*/
     padding: 20px;
     text-align: center;
+    font-size: 2.0em;
 }
 
 #header{
