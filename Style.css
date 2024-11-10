@@ -1,7 +1,7 @@
 /*Navigation section colors and style*/
 nav {
-    background-color: #029BE7; /* UPRM's blue color */
-    padding: 10px;
+    background-color: #ffffff; /* UPRM's blue color */
+    padding: 0px;
     text-align: center;
 }
 nav ul {
@@ -18,12 +18,28 @@ nav ul li {
     margin: 0 15px;
 }
 nav ul li a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    padding: 5px;
 }
-nav ul li a:hover {
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
     color: #FFD700; /* Highlight on hover */
+    background-color: #322b2b;
+    transition: width 0.3s ease; /* Animation effect */
+
+
+}
+nav ul li a:hover::after{
+    width: 100%;
 }
 .logo-left, .logo-right {
     display: flex;
@@ -31,7 +47,7 @@ nav ul li a:hover {
 }
 
 .logo-left img, .logo-right img {
-    width: 40px; /* Adjust size as needed */
+    width: 80px; /* Adjust size as needed */
     height: auto;
     margin: 0 5px;
 }
@@ -41,7 +57,7 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     color: #ffffff;
-    height: 60vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
