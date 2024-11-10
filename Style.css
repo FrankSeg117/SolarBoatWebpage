@@ -96,18 +96,20 @@ html, body {
 }
 .overlay {
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
-    padding: 40px;
+    padding: 20px;
     border-radius: 16px; /* Optional: adds rounded corners */
 }
 .hero-text h1 {
-    font-size: 6em;
+    font-size: 4em;
 }
 .hero-text p {
-    font-size: 2.4em;
+    font-size: 2.0em;
 }
+
 #about {
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
+
 #team {
     background-color: #8BC53F; /* Light coral background */ /*Esto es color del background*/
     color: #000000; /* Darker text color */ /*Esto el color del texto*/
@@ -141,7 +143,7 @@ html, body {
     color: #000000; /* Darker text color */ /*Esto el color del texto*/
     padding: 20px;
     text-align: center;
-    font-size: 2.0em;
+    font-size: 1.8em;
 }
 
 #header{
