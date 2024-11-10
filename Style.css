@@ -82,7 +82,7 @@ html, body {
     box-sizing: border-box;
 }
 
-#hero {
+#home {
     padding-top: 80px;
     background-image: url('contents/images/boteenohiotaller.jpg');
     background-size: cover;
