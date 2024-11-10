@@ -7,3 +7,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// JavaScript to add/remove the 'scrolled' class on scroll
+window.addEventListener("scroll", function () {
+    var navbar = document.querySelector("nav");
+    if (window.scrollY > 50) { // Adjust this value as needed
+                navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
