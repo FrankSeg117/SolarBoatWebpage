@@ -106,10 +106,6 @@ html, body {
     font-size: 2.0em;
 }
 
-#about {
-    font-size: 1.4em;
-}
-
 #team {
     background-color: #8BC53F; /* Light coral background */ /*Esto es color del background*/
     color: #000000; /* Darker text color */ /*Esto el color del texto*/
@@ -153,10 +149,11 @@ html, body {
     text-align: center;
 }
 #about{
-    background-color:#029BE7; /* Light coral background */ /*Esto es color del background*/
+    background-color:#ffffff; /* Light coral background */ /*Esto es color del background*/
     color: #000000; /* Darker text color */ /*Esto el color del texto*/
     padding: 20px;
     text-align: center;
+    font-size: 1.4em;
 }
 
 footer {
